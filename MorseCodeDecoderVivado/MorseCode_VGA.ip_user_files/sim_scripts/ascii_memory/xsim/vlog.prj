@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../MorseCode_VGA.gen/sources_1/ip/ascii_memory/sim/ascii_memory.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

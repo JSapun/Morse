@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MorseCode_VGA.gen/sources_1/ip/bitmaps/sim/bitmaps.v" \
+"../../../../MorseCode_VGA.gen/sources_1/ip/ascii_memory/sim/ascii_memory.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

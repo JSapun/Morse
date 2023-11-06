@@ -1,0 +1,15 @@
+
+*** Running vivado
+    with args -log bitmaps.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bitmaps.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source bitmaps.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1238.574 ; gain = 0.000
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP bitmaps, cache-ID = eeea383ed5daebd6.
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 17:34:04 2023...

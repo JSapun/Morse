@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jun  1 20:05:17 2023
+# Process ID: 1868
+# Current directory: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1
+# Command line: vivado.exe -log game_logic_shell.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source game_logic_shell.tcl
+# Log file: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.vds
+# Journal file: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1\vivado.jou
+# Running On: mecha-1, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 16953 MB
+#-----------------------------------------------------------
+source game_logic_shell.tcl -notrace

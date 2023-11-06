@@ -1,0 +1,2 @@
+bitmaps.v,verilog,xil_defaultlib,../../../../MorseCode_VGA.gen/sources_1/ip/bitmaps/sim/bitmaps.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

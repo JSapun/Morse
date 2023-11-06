@@ -1,0 +1,98 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Thu Jun  1 20:07:13 2023
+| Host         : mecha-1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file game_logic_shell_control_sets_placed.rpt
+| Design       : game_logic_shell
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    20 |
+|    Minimum number of control sets                        |    20 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    44 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    20 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     8 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              66 |           27 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             105 |           29 |
+| Yes          | No                    | No                     |              53 |           12 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             124 |           34 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+----------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|        Clock Signal       |                 Enable Signal                |              Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------+----------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+|  clocking/system_clk_port | ms_gen/output_port_button_i_2_n_0            | ms_gen/output_port_button                  |                1 |              1 |         1.00 |
+|  clocking/system_clk_port | vga/VGA_proc/VGA/H_sync                      | vga/VGA_proc/VGA/H_sync_i_1_n_0            |                1 |              1 |         1.00 |
+|  clocking/system_clk_port | vga/VGA_proc/VGA/V_sync9_out                 | vga/VGA_proc/VGA/V_sync6_out               |                1 |              1 |         1.00 |
+|  clocking/system_clk_port | decoder/letter_reg[7]_i_2_n_0                | decoder/letter_reg[7]_i_1_n_0              |                1 |              7 |         7.00 |
+|  clocking/system_clk_port |                                              | center_button/next_state[0]                |                3 |              8 |         2.67 |
+|  clocking/system_clk_port |                                              | reset_button/next_state[0]                 |                2 |              8 |         4.00 |
+|  clk_ext_port_IBUF_BUFG   | decoder/FSM_sequential_current_state_reg[1]  | decoder/FSM_onehot_current_state_reg[12]_0 |                2 |              8 |         4.00 |
+|  clk_ext_port_IBUF_BUFG   | vga/address[7]_i_1_n_0                       |                                            |                1 |              8 |         8.00 |
+|  clocking/system_clk_port | decoder/char_reg[9]_i_2_n_0                  | decoder/char_reg[9]_i_1_n_0                |                3 |             10 |         3.33 |
+|  clocking/system_clk_port |                                              | display/cdcount[10]_i_1_n_0                |                3 |             11 |         3.67 |
+|  clocking/system_clk_port | decoder/FSM_onehot_current_state[12]_i_1_n_0 |                                            |                3 |             13 |         4.33 |
+|  clocking/system_clk_port |                                              | sound/count[15]_i_1_n_0                    |                4 |             15 |         3.75 |
+|  clocking/system_clk_port |                                              |                                            |               14 |             27 |         1.93 |
+|  clocking/system_clk_port |                                              | vga/VGA_proc/VGA/h_count[31]_i_1_n_0       |                8 |             31 |         3.88 |
+|  clocking/system_clk_port |                                              | ms_gen/mc_gen_counter[31]_i_1_n_0          |                9 |             32 |         3.56 |
+|  clocking/system_clk_port | decoder/high_en                              |                                            |                8 |             32 |         4.00 |
+|  clocking/system_clk_port | decoder/high_en                              | decoder/low_en                             |                8 |             32 |         4.00 |
+|  clocking/system_clk_port | decoder/low_en                               | decoder/high_en                            |                8 |             32 |         4.00 |
+|  clocking/system_clk_port | vga/VGA_proc/VGA/v_count0                    | vga/VGA_proc/VGA/v_count[31]_i_1_n_0       |                9 |             32 |         3.56 |
+|  clk_ext_port_IBUF_BUFG   |                                              |                                            |               13 |             39 |         3.00 |
++---------------------------+----------------------------------------------+--------------------------------------------+------------------+----------------+--------------+
+
+

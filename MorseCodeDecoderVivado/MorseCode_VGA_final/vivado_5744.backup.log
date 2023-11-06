@@ -1,0 +1,383 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jun  1 17:30:03 2023
+# Process ID: 5744
+# Current directory: O:/ENGS31/MorseCode_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6932 O:\ENGS31\MorseCode_VGA\MorseCode_VGA.xpr
+# Log file: O:/ENGS31/MorseCode_VGA/vivado.log
+# Journal file: O:/ENGS31/MorseCode_VGA\vivado.jou
+# Running On: mecha-1, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 16953 MB
+#-----------------------------------------------------------
+start_gui
+open_project O:/ENGS31/MorseCode_VGA/MorseCode_VGA.xpr
+WARNING: [Board 49-26] cannot add Board Part alpha-data.com:admpa100_2ms:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/AlphaData/admpa100_2ms/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part alpha-data.com:admpa101_2ms:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/AlphaData/admpa101_2ms/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:ultra96v1:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/ultra96v1/1.2/board.xml as part xczu3eg-sbva484-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:ultra96v2:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/ultra96v2/1.1/board.xml as part xczu3eg-sbva484-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:ultra96v2:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/ultra96v2/1.2/board.xml as part xczu3eg-sbva484-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:ultrazed_7ev_cc:part0:1.5 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/ultrazed_7ev_cc/1.5/board.xml as part xczu7ev-fbvb900-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:ultrazed_eg_iocc_production:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/ultrazed_3eg_iocc/1.2/board.xml as part xczu3eg-sfva625-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:ultrazed_eg_pciecc_production:part0:1.3 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/ultrazed_3eg_pciecc/1.3/board.xml as part xczu3eg-sfva625-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part avnet.com:zuboard_1cg:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Avnet/zub1cg/1.0/board.xml as part xczu1cg-sbva484-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Digilent/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Digilent/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Digilent/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g30m-c4ev-4e002g-e008g-lia:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g30m-c4ev-4e002g-e008g-lia/1.0/board.xml as part xczu4ev-fbvb900-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g30m-c7ev-4e004g-e008g-lea:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g30m-c7ev-4e004g-e008g-lea/1.0/board.xml as part xczu7ev-fbvb900-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g35m-11eg-4e004g-e008g-lia:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g35m-11eg-4e004g-e008g-lia/1.0/board.xml as part xczu11eg-ffvc1760-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g35m-17eg-4e004g-e008g-lia:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g35m-17eg-4e004g-e008g-lia/1.0/board.xml as part xczu17eg-ffvc1760-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g35m-19eg-4e004g-e008g-lia:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g35m-19eg-4e004g-e008g-lia/1.0/board.xml as part xczu19eg-ffvc1760-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g36s-2cg1-4e002g-e008g-bee:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g36s-2cg1-4e002g-e008g-bee/1.0/board.xml as part xczu2cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g36s-3eg1-4e002g-e008g-bee:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g36s-3eg1-4e002g-e008g-bee/1.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g36s-4ev1-4e002g-e008g-bee:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g36s-4ev1-4e002g-e008g-bee/1.0/board.xml as part xczu4ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g36s-5ev1-4e002g-e008g-bed:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g36s-5ev1-4e002g-e008g-bed/1.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g36s-5ev1-4e002g-e008g-bee:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g36s-5ev1-4e002g-e008g-bee/1.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part iwavesystems.com:iw-g36s-5ev1-4e002g-e008g-beg:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/iWave/iw-g36s-5ev1-4e002g-e008g-beg/1.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:brk1900-7cg:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/BRK1900-7CG/1.0/board.xml as part xczu7cg-ffvc1156-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:brk1900-7eg:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/BRK1900-7EG/1.0/board.xml as part xczu7eg-ffvc1156-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:brk1900-7ev:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/BRK1900-7EV/1.0/board.xml as part xczu7ev-ffvc1156-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7305-s50:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7305-S50/1.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7350-k160t:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7350-K160T/1.0/board.xml as part xc7k160tffg676-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7350-k410t-3e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7350-K410T-3E/1.0/board.xml as part xc7k410tffg676-3 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7350-k410t:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7350-K410T/1.0/board.xml as part xc7k410tffg676-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7350-k70t:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7350-K70T/1.0/board.xml as part xc7k70tfbg676-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7360-k160t-3e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7360-K160T-3E/1.0/board.xml as part xc7k160tffg676-3 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7360-k160t:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7360-K160T/1.0/board.xml as part xc7k160tffg676-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7360-k410t-3e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7360-K410T-3E/1.0/board.xml as part xc7k410tffg676-3 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem7360-k410t:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM7360-K410T/1.0/board.xml as part xc7k410tffg676-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem8310-au25p:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM8310-AU25P/1.0/board.xml as part xcau25p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem8320-au25p:part0:1.2 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM8320-AU25P/1.2/board.xml as part xcau25p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem8350-ku060-3e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM8350-KU060-3E/1.0/board.xml as part xcku060-ffva1517-3-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem8350-ku060:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM8350-KU060/1.0/board.xml as part xcku060-ffva1517-1-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part opalkelly.com:xem8350-ku115:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/OpalKelly/XEM8350-KU115/1.0/board.xml as part xcku115-flva1517-1-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:am0010_3eg_1i:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/AM0010_3EG_1I/1.0/board.xml as part xczu3eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:am0010_4ev_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/AM0010_4EV_1E/1.0/board.xml as part xczu4ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_070_2c:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_70_2C/1.0/board.xml as part xc7k70tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_070_2i:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_70_2I/1.0/board.xml as part xc7k70tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_160_2c:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_160_2C/1.0/board.xml as part xc7k160tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_160_2c:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_160_2C/2.0/board.xml as part xc7k160tffg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_160_2i:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_160_2I/1.0/board.xml as part xc7k160tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_160_3e:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_160_3E/2.0/board.xml as part xc7k160tffg676-3 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_325_2c:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_325_2C/1.0/board.xml as part xc7k325tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_325_2i:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_325_2I/1.0/board.xml as part xc7k325tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_410_2c:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_410_2C/1.0/board.xml as part xc7k410tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0741_410_2i:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0741_410_2I/1.0/board.xml as part xc7k410tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0802_2cg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0802_2CG_1E/1.0/board.xml as part xczu2cg-sbva484-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0802_2cg_1e:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0802_2CG_1E/2.0/board.xml as part xczu2cg-sbva484-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_2cg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_2CG_1E/1.0/board.xml as part xczu2cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_2cg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_2CG_1E/2.0/board.xml as part xczu2cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_2eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_2EG_1E/1.0/board.xml as part xczu2eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_2eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_2EG_1E/2.0/board.xml as part xczu2eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3cg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3CG_1E/1.0/board.xml as part xczu3cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3cg_1e:part0:5.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3CG_1E/5.0/board.xml as part xczu3cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3cg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3CG_1E/2.0/board.xml as part xczu3cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3cg_1e_tebf0808:part0:6.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3CG_1E/6.0/board.xml as part xczu3cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1E/1.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1e:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1E/3.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1e:part0:5.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1E/5.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1E/2.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1e_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1E/4.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1e_tebf0808:part0:6.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1E/6.0/board.xml as part xczu3eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1i:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1I/3.0/board.xml as part xczu3eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1i_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1I/4.0/board.xml as part xczu3eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1li:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1LI/3.0/board.xml as part xczu3eg-sfvc784-1l-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_3eg_1li_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_3EG_1LI/4.0/board.xml as part xczu3eg-sfvc784-1l-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4cg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4CG_1E/1.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4cg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4CG_1E/2.0/board.xml as part xczu4cg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1E/1.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1E/3.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1E/2.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1e_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1E/4.0/board.xml as part xczu4eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1i:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1I/3.0/board.xml as part xczu4eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1i:part0:5.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1I/5.0/board.xml as part xczu4eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1i_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1I/4.0/board.xml as part xczu4eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_1i_tebf0808:part0:6.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_1I/6.0/board.xml as part xczu4eg-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2E/1.0/board.xml as part xczu4eg-sfvc784-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2e:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2E/3.0/board.xml as part xczu4eg-sfvc784-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2E/2.0/board.xml as part xczu4eg-sfvc784-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2e_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2E/4.0/board.xml as part xczu4eg-sfvc784-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2i:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2I/1.0/board.xml as part xczu4eg-sfvc784-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2i:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2I/3.0/board.xml as part xczu4eg-sfvc784-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2i_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2I/2.0/board.xml as part xczu4eg-sfvc784-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4eg_2i_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EG_2I/4.0/board.xml as part xczu4eg-sfvc784-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4ev_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EV_1E/1.0/board.xml as part xczu4ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4ev_1e:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EV_1E/3.0/board.xml as part xczu4ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4ev_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EV_1E/2.0/board.xml as part xczu4ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4ev_1e_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EV_1E/4.0/board.xml as part xczu4ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4ev_1i:part0:3.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EV_1I/3.0/board.xml as part xczu4ev-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_4ev_1i_tebf0808:part0:4.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_4EV_1I/4.0/board.xml as part xczu4ev-sfvc784-1-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_5eg_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_5EG_1E/1.0/board.xml as part xczu5eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_5eg_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_5EG_1E/2.0/board.xml as part xczu5eg-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_5ev_1e:part0:1.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_5EV_1E/1.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part trenz.biz:te0803_5ev_1e_tebf0808:part0:2.0 available at C:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Trenz_Electronic/TE0803_5EV_1E/2.0/board.xml as part xczu5ev-sfvc784-1-e specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Project 1-313] Project file moved from 'O:/ES31_S23/final_project/MorseCode_VGA' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:18 . Memory (MB): peak = 1430.555 ; gain = 194.730
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+reset_run bitmaps_synth_1
+reset_run ascii_memory_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bitmaps'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ascii_memory'...
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file 
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'c:/Xilinx/Vivado/2021.2/data/ip/xilinx/blk_mem_gen_v8_4/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ascii_memory'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'ascii_memory'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+export_ip_user_files -of_objects  [get_files o:/ENGS31/final_project_may25/final_project_vivado/rom.coe] -no_script -reset -force -quiet
+remove_files  o:/ENGS31/final_project_may25/final_project_vivado/rom.coe
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ascii_memory'...
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file 
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'c:/Xilinx/Vivado/2021.2/data/ip/xilinx/blk_mem_gen_v8_4/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'ascii_memory'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'ascii_memory'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'o:/ENGS31/MorseCode_VGA/rom.coe' provided. It will be converted relative to IP Instance files '../../../../rom.coe'
+set_property -dict [list CONFIG.Coe_File {O:/ENGS31/MorseCode_VGA/rom.coe}] [get_ips ascii_memory]
+INFO: [IP_Flow 19-3484] Absolute path of file 'o:/ENGS31/MorseCode_VGA/rom.coe' provided. It will be converted relative to IP Instance files '../../../../rom.coe'
+generate_target all [get_files  O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/sources_1/ip/ascii_memory/ascii_memory.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ascii_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ascii_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ascii_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'ascii_memory'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ascii_memory'...
+catch { config_ip_cache -export [get_ips -all ascii_memory] }
+export_ip_user_files -of_objects [get_files O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/sources_1/ip/ascii_memory/ascii_memory.xci] -no_script -sync -force -quiet
+launch_runs ascii_memory_synth_1 -jobs 8
+[Thu Jun  1 17:33:24 2023] Launched ascii_memory_synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/ascii_memory_synth_1/runme.log
+export_simulation -of_objects [get_files O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/sources_1/ip/ascii_memory/ascii_memory.xci] -directory O:/ENGS31/MorseCode_VGA/MorseCode_VGA.ip_user_files/sim_scripts -ip_user_files_dir O:/ENGS31/MorseCode_VGA/MorseCode_VGA.ip_user_files -ipstatic_source_dir O:/ENGS31/MorseCode_VGA/MorseCode_VGA.ip_user_files/ipstatic -lib_map_path [list {modelsim=O:/ENGS31/MorseCode_VGA/MorseCode_VGA.cache/compile_simlib/modelsim} {questa=O:/ENGS31/MorseCode_VGA/MorseCode_VGA.cache/compile_simlib/questa} {riviera=O:/ENGS31/MorseCode_VGA/MorseCode_VGA.cache/compile_simlib/riviera} {activehdl=O:/ENGS31/MorseCode_VGA/MorseCode_VGA.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 17:33:45 2023] Launched bitmaps_synth_1, ascii_memory_synth_1, synth_1...
+Run output will be captured here:
+bitmaps_synth_1: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/bitmaps_synth_1/runme.log
+ascii_memory_synth_1: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/ascii_memory_synth_1/runme.log
+synth_1: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 17:33:45 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.2
+  **** Build date : Oct 19 2021 at 03:13:30
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.2.0
+  ****** Build date   : Sep 27 2021-17:44:20
+    **** Build number : 2021.2.1632779060
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1509.176 ; gain = 4.484
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3300.223 ; gain = 1791.047
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 17:39:17 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 17:39:17 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 17:49:30 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 17:49:30 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Property must not be null: contentChanges (See O:/ENGS31/MorseCode_VGA/vivado_pid5744.debug)
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 18:07:05 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 18:07:05 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 18:08:50 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 18:08:50 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183ACA45AA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 18:18:56 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 18:18:56 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 18:22:15 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 18:22:15 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3696.746 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 70 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 4374.613 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 4374.613 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4374.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 4484.438 ; gain = 1120.668
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close [ open O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/sources_1/new/pattern_logic.vhd w ]
+add_files O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/sources_1/new/pattern_logic.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 19:53:20 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 19:53:20 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 19:56:03 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 19:56:03 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 19:57:18 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 19:57:18 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+set_property is_enabled false [get_files  O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/sources_1/new/pattern_logic.vhd]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 20:00:50 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 20:00:50 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.srcs/utils_1/imports/synth_1/game_logic_shell.dcp with file O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/game_logic_shell.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  1 20:05:13 2023] Launched synth_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/synth_1/runme.log
+[Thu Jun  1 20:05:13 2023] Launched impl_1...
+Run output will be captured here: O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {O:/ENGS31/MorseCode_VGA/MorseCode_VGA.runs/impl_1/game_logic_shell.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 20:11:55 2023...

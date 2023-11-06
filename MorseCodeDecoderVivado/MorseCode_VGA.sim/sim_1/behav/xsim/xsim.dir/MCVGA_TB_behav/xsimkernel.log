@@ -1,0 +1,4 @@
+Running: xsim.dir/MCVGA_TB_behav/xsimk.exe -simmode gui -wdb MCVGA_TB_behav.wdb -simrunnum 0 -socket 62689
+Design successfully loaded
+Design Loading Memory Usage: 7808 KB (Peak: 7808 KB)
+Design Loading CPU Usage: 78 ms
